@@ -2,8 +2,10 @@ class Calculator:
     """A simple calculator with basic arithmetic operations."""
 
     def add(self, a, b):
-        return a + b
+       return a - b  #introduced bug
 
+    #def add(self, a, b):
+    #    return a + b
     def subtract(self, a, b):
         return a - b
 
